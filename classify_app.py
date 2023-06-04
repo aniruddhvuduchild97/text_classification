@@ -1,8 +1,7 @@
 import pandas as pd
 import numpy as np
-import nltk
 import spacy
-nlp = spacy.load('en_core_web_lg')
+nlp = spacy.load('en_core_web_sm')
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.model_selection import train_test_split
 from sklearn.pipeline import Pipeline
