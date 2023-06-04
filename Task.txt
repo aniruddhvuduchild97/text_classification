@@ -1,0 +1,12 @@
+Using query in Customer Service Dataset.csv
+Create model that will calculate category,intent,sentiment.
+At the end, you should develop application that will give the calculate category,intent,sentiment for a given query.
+
+
+you have to create the categories and the intent by yourself.
+
+
+for example for input: 
+1. I do not want the order OUTPUT: ORDER,cancel_order,neutral
+2. i have problems with the termination of a user account OUTPUT:ACCOUNT,delete_account,neutral
+3. how can I find my invoice? OUTPUT: INVOICE,check_invoice,neutral
